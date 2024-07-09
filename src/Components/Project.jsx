@@ -1,6 +1,6 @@
 import "./Project.css"
 import  textUtiles from "../Assets/textUtiles.png"
-import weather from "../Assets/weather.png"
+
 import notes from "../Assets/notes.png"
 import ss from "../Assets/ss.png"
 import projecttodo from "../Assets/projecttodo.png"
