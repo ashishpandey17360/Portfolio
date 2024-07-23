@@ -96,7 +96,7 @@ function Project() {
         <img className="projectimg mt-3" src={notes}/>
       </div>
 
-      <div>
+      <div >
         <h4 className="fw-bold notesh4" >Notes</h4>
         <p className="propara proparamedianotes mt-3">This minimalist application focuses on providing essential note-taking features in a user-friendly interface, making it accessible for users of all technical backgrounds. </p>
 
