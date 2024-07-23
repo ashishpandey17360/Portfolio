@@ -8,6 +8,10 @@
     width: 25rem;
 }
 
+.notesh4{
+    margin-left: 8rem;
+}
+
 .projectshow{
     display: flex;
     justify-content: space-between;
@@ -18,6 +22,14 @@
 .propara{
     margin-left: 8rem;
     text-align:left;
+}
+
+.size{
+    margin-left: 18rem;
+}
+
+.size1{
+    margin-left: 6rem;
 }
 
 .propara1{
@@ -39,6 +51,10 @@
     width: 25rem;
 }
 
+.tU{
+    margin-left:8rem;
+}
+
 
 .propara2{
     text-align: left;
@@ -46,4 +62,231 @@
 
 .removeunderline {
     text-decoration: none;
+  }
+
+  /*----------------------------------- media query--------------------------------- */
+
+  @media only screen and (max-width: 600px){
+	.cen{
+        flex-direction: column;
+        text-align: center;
+        margin-left: 12px;
+    }
+
+    .ali{
+        text-align: center;
+    }
+
+    .projectshow{
+        width: 100%;
+        flex-direction: column;
+    }
+.projectimg{
+   
+    width: 100%;
+   
+}
+
+
+.tU{
+    text-align: center;
+    align-items: center;
+    
+    
+   
+  
+}
+
+.order1{
+    align-items: center;
+    text-align: center;
+    margin-left: 6.5rem;
+    
+}
+
+.fix{
+    text-align: center;
+    width: 100%;
+    margin-left: -120px;
+    margin-top: 2rem;
+
+    
+}
+
+
+.proparamediatextUtiles{
+    text-align: center;
+    width: 100%;
+   margin-bottom: 1rem;
+   font-size: 20px;
+  
+   
+   
+}
+.techmediatextUtiles{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  margin-left: 12.5rem;
+ 
+
+
+}
+
+.size{
+    width: 10rem;
+    text-align: center;
+    align-items: center;
+    margin-right: -160px;
+}
+
+
+
+
+
+/* media querry for second project */
+
+
+.propara1{
+    text-align: center;
+    width: 100%;
+   margin-bottom: 1rem;
+   font-size: 20px;
+  
+   
+   
+}
+
+.techmediatodoapp{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 5.5rem;
+
+
+
+
+}
+
+.size{
+    width: 10rem;
+    margin-left: 200px;
+}
+
+
+.project2img{
+   
+    width: 100%;
+   
+}
+
+.order21{
+    order: 1;
+}
+
+.order22{
+    order: 2;
+}
+
+.tU1{
+    text-align: center;
+}
+
+
+
+
+/* project 3 */
+
+.projectimg{
+   
+    width: 100%;
+   
+}
+
+
+.tU{
+    text-align: center;
+    align-items: center;
+    
+    
+   
+  
+}
+
+.order1{
+    align-items: center;
+    text-align: center;
+    margin-left: 6.5rem;
+    
+}
+
+.fix{
+    text-align: center;
+    width: 100%;
+    margin-left: -120px;
+    margin-top: 2rem;
+
+    
+}
+
+
+.proparamedianotes{
+    text-align: center;
+    width: 100%;
+   margin-bottom: 1rem;
+   font-size: 20px;
+  
+   margin-left: 1px;
+   
+}
+
+.techmedianotes{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 90px;
+   
+   
+
+  
+
+
+}
+
+
+.notesh4{
+    padding-top: 3rem;
+}
+
+.size{
+    width: 10rem;
+    margin-left: 80px;
+    
+}
+
+/*----------------------------------- fourth project------------------------------------------- */
+.order44{
+    order: 44;
+}
+.order45{
+    order: 45;
+}
+.mediah4clock{
+    text-align: center;
+    align-items: center;
+}
+
+.techmediaclock{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  
+  margin-left: 90px;
+
+}
+
+
+
+
+
   }

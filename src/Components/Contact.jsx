@@ -7,26 +7,26 @@ function Contact() {
     
     <div id="Contact" className="contact">
     
-      <h5  style={{ marginLeft: '13rem' , textAlign:"left" }} className="text-primary  textAlign">CONTACT</h5>
-      <h2 style={{ marginLeft: '13rem' , textAlign:"left" }} className=" fw-bold">Don't be shy! Hit me up! 👇</h2>
+      <h5   className="text-primary  textAlign h5contactAligment">CONTACT</h5>
+      <h2  className=" fw-bold h5contactAligment">Don't be shy! Hit me up! 👇</h2>
 
       
 
       <div className="row my-5">
-  <div className="col  my-5">
-    <span className="ma">
+  <div className="col  in my-5">
+    <span className="ma medialocicon">
     <i className="fa-solid fa-location-dot fa-3x text-primary"></i>
     </span>
     
     
   </div>
-  <div className="col space my-3 ">
+  <div className="col space medialocation my-3 ">
     <h3 className="fw-bold  ">Location</h3>
   <p className="fs-5 hov">Moradabad ,India</p>
   </div>
 
-  <div className="col my-5">
-    <span className="ma">
+  <div className="col my-5 ">
+    <span className="ma emailicon">
     <i className="fa-solid fa-envelope fa-3x text-primary"></i>
     </span>
     

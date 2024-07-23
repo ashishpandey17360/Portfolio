@@ -7,7 +7,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navar() {
   return (
-    <div className="">
+    <div className="mediaNav">
        <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary ">
   <div className="container-fluid">
     <a className="navbar-brand nShift " href="#"> <img src={logo}/> </a>

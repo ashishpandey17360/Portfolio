@@ -10,13 +10,13 @@ const About = () => {
       
  <div id="About" className="contAbout">
 
-<div>
+<div className="">
     <img className="aboutimg1" src={aboutimg1}/>
 </div>
-<div className="aboutme ">
-<h4  style={{ marginLeft: '8rem' , textAlign:"left" }} className="text-primary ">ABOUT ME</h4>
-<h2 style={{ marginLeft: '8rem' , textAlign:"left" }}>Front-end Developer
-  <span className="span3 "><br/> based in India. 📍</span></h2>
+<div className="aboutme">
+<h4   className="text-primary aboutH4">ABOUT ME</h4>
+<h2  className="aboutH2"><span className="nowarp aboutH2">Front-end Developer</span><br/>
+  <span className="span3 middlethis "> based in India. 📍</span></h2>
 
   <p className="para">Hey, my name is Ashish Pandey, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for <br/> my users.
 

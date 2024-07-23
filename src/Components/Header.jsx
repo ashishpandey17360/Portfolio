@@ -9,20 +9,26 @@ import js from "../Assets/js.png"
 import tailwind from "../Assets/tailwind.png"
 import nodejs from "../Assets/nodejs.png"
 import react from "../Assets/react.png"
+import mongodb from "../Assets/mongodb.png"
+import bootstrap from "../Assets/bootstrap.png"
+import mysql from "../Assets/mysql.png"
+import express from "../Assets/express.png"
+
 function Header() {
   return (
     <div id="Header" className="container my-5">
-  <div className="row">
-    <div className="col-12 col-md-9 cen">
+  <div className="row medrow">
+    <div className="col-12 col-md-9 cen  mediacen">
     <h1 className="h1">
-      Front-End React <span className="span1">
-      <br /> Developer 👋
+    <span className="front-end">Front-End React</span><br /> 
+    <span className="span1 ms middle">
+      Developer👋
       </span> 
       </h1>
 
       <p className="mar">
-      Hi,  I'm  Ashish Pandey. A passionate Front-end React  <span className="span2">
-      <br /> Developer based in India. 📍
+      Hi,  I'm  Ashish Pandey. A passionate Front-end React <br /> <span className="span2">
+       Developer based in India. <span className="siftIcon">📍</span>
       </span> 
       </p>
 
@@ -40,7 +46,7 @@ function Header() {
 
       
     </div>
-    <div className="col-6 col-md-3">
+    <div className="col-6 col-md-3 respro">
      <img className="pro-img profile-image" src={ashish}/>
     </div>
     
@@ -50,15 +56,23 @@ function Header() {
 
 
 <div className="skills mt-5">
-<h5 className="mt-3">Tech Stack  |</h5>
+<h5 className="mt-3 phoneMar ">Tech Stack  |</h5>
 
-<img className="skillsimg translate-effect" src={html}/>
-<img className="skillsimg translate-effect" src={css}/>
-<img className="skillsimg translate-effect" src={js}/>
-<img className="skillsimg translate-effect" src={tailwind}/>
-<img className="skillsimg translate-effect" src={react}/>
-<img className="skillsimg translate-effect" src={nodejs}/>
-
+<div className="first3">
+  <img className="skillsimg translate-effect" src={html}/>
+  <img className="skillsimg translate-effect" src={css}/>
+  <img className="skillsimg translate-effect" src={js}/>
+  <img className="skillsimg translate-effect" src={tailwind}/>
+  <img className="skillsimg translate-effect" src={react}/>
+</div>
+<div className="second3">
+  <img className="skillsimg translate-effect" src={bootstrap}/>
+  <img className="skillsimg translate-effect" src={nodejs}/>
+  <img className="skillsimg translate-effect" src={express}/>
+  <img className="skillsimg translate-effect" src={mongodb}/>
+  {/* <img className="skillsimg translate-effect" src={mysql}/> */}
+  
+</div>
 </div>
 
 </div>

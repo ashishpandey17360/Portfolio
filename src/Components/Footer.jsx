@@ -4,12 +4,12 @@ import "./Footer.css"
 
 function Footer() {
   return (
-    <div className="bg-dark">
-      <div className="bg-dark d-flex   h">
+    <div className="footer-container bg-dark ">
+      <div className="bg-dark footerflex mediafooter  setmediafooter  h">
         <h4 className="fw-bold text-light">Copyright © 2024. All rights are reserved</h4>
 
 
-        <div className="bg-dark d-flex left ">
+        <div className="bg-dark footerlogo left ">
       <a className="ashift text-light" target="_blank" href="https://www.linkedin.com/in/ashish-pandey-17ap360ap1976/">
       <i className="fa-brands fa-linkedin fa-3x"></i>
         

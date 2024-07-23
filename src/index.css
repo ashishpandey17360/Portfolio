@@ -8,4 +8,17 @@ body{
   width: 100%;
   overflow-x: hidden;
 }
+@media only screen and (max-width: 600px){
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  
 
+  body{
+    max-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+	
+}

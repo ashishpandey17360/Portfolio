@@ -7,30 +7,34 @@ import projecttodo from "../Assets/projecttodo.png"
 
 function Project() {
   return (
-    <div id="Project" className="projectSection text-start ">
-      <h5 className="text-primary">Portfolio</h5>
-      <p className="fw-bold ">Each project is a unique peice of development ➕</p>
+    <div id="Project" className="projectSection text-start  cen">
+      <h5 className="text-primary cen">Portfolio</h5>
+      <p className="fw-bold ali ">Each project is a unique peice of development ➕</p>
 
       <div className="projectshow ">
 
-      <div>
+      <div className="order2">
         <img className="projectimg mt-5" src={textUtiles}/>
       </div>
 
-      <div>
-        <h4 className="fw-bold" style={{marginLeft:"8rem"}}>TextUtiles</h4>
-        <p className="propara mt-3">This project is used to customize words acording to the needs
-of the users you can convert words into uppercase and
-lowercase, Remove Spaces, Copy Text ,Toggle</p>
-
-<div className="d-flex tech">
-    <h5 className="mx-1">React</h5>
-    <h5 className="mx-2">Bootstrap</h5>
-    
+      <div className="fix">
+      <div className="order1">
+          <h4 className="fw-bold tU">TextUtiles</h4>
+      </div>
+       
+<div className="order3">
+           <p className="propara proparamediatextUtiles mt-3 ">This project allows users to customize text according to their needs. It provides features to convert text to uppercase or lowercase, remove spaces, copy text, and toggle various text transformations.</p>
+          
+        
+  <div className="d-flex tech techmediatextUtiles">
+      <h5 className="mx-1">React</h5>
+      <h5 className="mx-2">Bootstrap</h5>
+      
+  </div>
+  <button type="button" className="btn btn-outline-info mt-3 size   ">
+      <a className="removeunderline text-dark" href="https://harrypandey.github.io/text-utiles/" target="_blank"> Live Demo 🔗 </a>
+    </button>
 </div>
-<button type="button" className="btn btn-outline-info mt-3   " style={{marginLeft:"18rem"}}>
-    <a className="removeunderline text-dark" href="https://harrypandey.github.io/text-utiles/" target="_blank"> Live Demo 🔗 </a>
-  </button>
 
 
 
@@ -47,9 +51,9 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
 <div className="projectshow ">
 
 
-<div>
-  <h4 className="fw-bold mt-5" style={{marginRight:"0rem"}}>ToDoApp</h4>
-  <p className="propara1 mt-3">Todo React is a user-friendly React application for managing tasks, featuring a sleek interface for adding and deleting tasks. Its component-based architecture ensures smooth functionality and scalability.
+<div className="order22">
+  <h4 className="fw-bold mt-5  tU1 ">ToDoApp</h4>
+  <p className="propara1  mt-3">Todo React is a user-friendly React application for managing tasks, featuring a sleek interface for adding and deleting tasks. Its component-based architecture ensures smooth functionality and scalability.
 
 
 
@@ -58,11 +62,8 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
 
 </p>
 
-<div className="d-flex tech1">
-<h5 className="mx-1">HTML</h5>
-<h5 className="mx-1">CSS</h5>
-<h5 className="mx-1">JS</h5>
-<h5 className="mx-1">API</h5>
+<div className="d-flex techmediatodoapp">
+<h5 className="mx-1">React</h5>
 <h5 className="mx-1">Bootstrap</h5>
 
 </div>
@@ -70,13 +71,13 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
 {/* 
 <button type="button"  href="https://ashishpandey17360.github.io/Weather/" target="_blank" style={{marginLeft:"6rem"}} className="btn btn-outline-info mt-3 textdeco text-dark">Live demo 🔗</button> */}
 
-<button type="button" className="btn btn-outline-info mt-3  " style={{marginLeft:"6rem"}}>
+<button type="button" className="btn btn-outline-info mt-3 size1  " >
     <a className="removeunderline text-dark" href="https://ashishpandey17360.github.io/toDoAppNew/" target="_blank"> Live Demo 🔗 </a>
   </button>
 
 
 </div>
-<div className="project2img">
+<div className="project2img order21">
   <img className="projectimg mt-5" src={projecttodo}/>
 </div>
 
@@ -96,10 +97,10 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
       </div>
 
       <div>
-        <h4 className="fw-bold" style={{marginLeft:"8rem"}}>Notes</h4>
-        <p className="propara mt-3">This minimalist application focuses on providing essential note-taking features in a user-friendly interface, making it accessible for users of all technical backgrounds. </p>
+        <h4 className="fw-bold notesh4" >Notes</h4>
+        <p className="propara proparamedianotes mt-3">This minimalist application focuses on providing essential note-taking features in a user-friendly interface, making it accessible for users of all technical backgrounds. </p>
 
-<div className="d-flex tech">
+<div className="d-flex tech techmedianotes">
 <h5 className="mx-1">HTML</h5>
 <h5 className="mx-1">CSS</h5>
 <h5 className="mx-1">JS</h5>
@@ -107,7 +108,7 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
 </div>
 
 
-<button type="button" className="btn btn-outline-info mt-3  " style={{marginLeft:"18rem"}}>
+<button type="button" className="btn btn-outline-info mt-3  size">
     <a className="removeunderline text-dark" href="https://ashishpandey17360.github.io/Notes-App/" target="_blank"> Live Demo 🔗 </a>
   </button>
 
@@ -125,8 +126,8 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
       <div className="projectshow ">
 
 
-<div>
-  <h4 className="fw-bold mt-5" style={{marginLeft:"0rem"}}>Wall Clock</h4>
+<div className="order45">
+  <h4 className="fw-bold mt-5 mediah4clock">Wall Clock</h4>
   <p className="propara1 mt-3">The "Wall Clock" project uses HTML, CSS, and JavaScript to display the current time. The design and functionality mimic a traditional wall clock. The clock updates in real-time to show the accurate current time.
 
 
@@ -136,7 +137,7 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
 
 </p>
 
-<div className="d-flex tech1">
+<div className="d-flex tech1 techmediaclock">
 <h5 className="mx-1">HTML</h5>
 <h5 className="mx-1">CSS</h5>
 <h5 className="mx-1">JS</h5>
@@ -154,7 +155,7 @@ lowercase, Remove Spaces, Copy Text ,Toggle</p>
 
 
 </div>
-<div className="project2img">
+<div className="project2img order44">
   <img className="projectimg mt-5" src={ss}/>
 </div>
 

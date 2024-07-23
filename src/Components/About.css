@@ -22,3 +22,71 @@
     margin-left: 8rem;
     text-align:left;
 }
+
+.aboutH4{
+    margin-left: '8rem';
+     text-align:"left" ;
+}
+
+.aboutH2{
+    margin-left: '8rem' ;
+     text-align:"left" ;
+}
+
+/*------------------------ about part media query------------------------ */
+
+@media only screen and (max-width: 600px){
+	
+    .contAbout{
+        width: 100%;
+        flex-direction: column;
+        /* text-align: center; */
+        /* align-items: end; */
+        text-align: left;
+        
+    }
+
+    .aboutimg1{
+        width: 100%;
+      
+        margin-left: 0.1rem;
+    }
+
+    .aboutme{
+      
+        
+       
+        width: 100%;
+    }
+
+
+
+    .aboutH4{
+       text-align: center;
+    }
+    
+    
+
+    .aboutH2{
+   width: 100%;
+   font-size: xx-large;
+  letter-spacing: 1px;
+  margin-left: 0.5rem;
+    }
+
+    .middlethis{
+      
+    margin-left: 39px;
+    font-size: 28px;
+    letter-spacing: 1.1px;
+    }
+
+
+    .para{
+        width: 100%;
+        font-size: 20px;
+       margin-left: 8px;
+       text-align: center;
+       margin-top: 1.8rem;
+    }
+}

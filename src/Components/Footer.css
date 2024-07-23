@@ -6,10 +6,65 @@
     margin-left: 12rem;
     
 
+
+}
+
+
+.footer-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+     /* Ensure the background color spans the entire width */
+  }
+
+
+
+.footerlogo{
+    display: flex;
 }
 
 .left{
     text-align: left;
     align-items: left;
     margin-left: 25rem;
+}
+
+
+.footerflex{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 600px){
+	.mediafooter{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center; 
+    margin-left: 1em;
+    font-size: 10px;
+    padding: 1rem;
+    
+      
+       
+        
+    }
+
+ 
+
+
+    .footerlogo{
+      
+        
+        margin-left: 4rem;
+        padding: 1rem;
+       
+
+    }
+    .footer-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #000; /* Ensure the background color spans the entire width */
+      }
 }

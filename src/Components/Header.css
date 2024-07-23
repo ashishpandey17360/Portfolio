@@ -65,3 +65,121 @@
 }
 
 
+
+
+/* =-----------------------------media query------------------ */
+
+
+ @media only screen and (max-width: 600px){
+
+    .respro{
+        width: 100%;
+        order: 1;
+        text-align: center;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
+    .mediacen{
+        order: 2;
+    }
+
+    .front-end{
+        padding-left: 1rem;
+    }
+
+    .middle{
+        padding-left: 4rem;
+        font-size: 1px;
+        
+    }
+
+
+    .front-end {
+        white-space: nowrap; /* Prevent "Front-End React" from breaking */
+        text-align: center;
+      }
+
+      .h1 {
+        font-size: 40px; /* Adjust as needed */
+        text-align: center; /* Center align the text */
+      }
+    
+
+      .span1 {
+       font-size: 33px;
+       
+       white-space: nowrap;
+       text-align: center;
+       
+      }
+
+      .mar {
+        /* Center-align the text */
+        font-size: 21px; /* Adjust font size for readability */
+        /* word-wrap: break-word; */
+        /* white-space: normal;  */
+        width: 100%;
+        
+      }
+
+      .mar, .span2 {
+        font-size: 22px;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .shiftIcon{
+        text-align: center;
+        background-color: black;
+    }
+
+/* ---------------github and linkdin icon--------------------- */
+    .cont{
+       
+
+      
+        
+        margin-left: 1rem;
+    }
+      
+
+   .ashift{
+ flex-direction: column;
+ width: 100%;
+
+   }
+   .lgimg {
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+
+.phoneMar{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+
+/* ------------------------sills------------- */
+
+.skills{
+    width: 100%;
+    margin-left: 0.1rem;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+}
+
+
+ 
+  

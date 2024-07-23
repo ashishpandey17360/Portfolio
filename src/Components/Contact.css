@@ -36,6 +36,12 @@ color:  #0000EE;
     transition: transform 0.5s ease-in-out;
 }
 
+
+.h5contactAligment{
+    margin-left: 13rem;
+    text-align: left;
+}
+
 @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
@@ -71,4 +77,58 @@ color:  #0000EE;
 
 .profile-container:hover .profile-image {
     animation: rotate 2s infinite linear, zoom 2s infinite alternate;
+}
+
+
+
+/*------------------------------------ media query----------------------------------------------- */
+
+@media only screen and (max-width: 600px){
+	
+    .contact{
+        width: 100%;
+        flex-direction: column;
+        
+
+    }
+
+    .h5contactAligment{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .medialocicon{
+      text-align: center;
+      margin-left: 0.1rem;
+      align-items: center;
+      
+      
+      
+      width: 100%;
+      
+      
+    }
+
+    .in{
+        width: 100%;
+    }
+
+    .medialocation {
+        flex-direction: column;
+       
+    }
+
+    .emailicon{
+       
+        width: 100%;
+    
+        margin-left: 0.1rem;
+        
+    }
+    .row{
+        display: block;
+    }
 }
