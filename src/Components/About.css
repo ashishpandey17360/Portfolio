@@ -1,0 +1,24 @@
+.contAbout{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutimg1{
+    margin-top: 100px;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+}
+
+.aboutme{
+    margin-top: 100px;
+}
+
+.span3{
+    margin-right: 36px;
+}
+
+.para{
+    margin-left: 8rem;
+    text-align:left;
+}

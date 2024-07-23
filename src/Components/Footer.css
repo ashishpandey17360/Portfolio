@@ -1,0 +1,15 @@
+.h{
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 12rem;
+    
+
+}
+
+.left{
+    text-align: left;
+    align-items: left;
+    margin-left: 25rem;
+}

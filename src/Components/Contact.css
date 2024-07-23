@@ -1,0 +1,74 @@
+.textAlign{
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 13rem;
+}
+
+.shiftLo{
+    margin-right: 13rem;
+    margin-top: 3rem;
+}
+
+.space{
+    margin-right: 1rem;
+}
+.ma{
+    margin-left: 13rem;
+}
+
+.cl{
+    color: skyblue;
+}
+.hov:hover{
+color:  #0000EE;
+}
+
+.dark{
+    color: black;
+}
+
+.profile-image {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Example animations */
+
+.profile-image:hover {
+    animation: bounce 1s infinite;
+}
+
+.profile-container:hover .profile-image {
+    animation: rotate 2s infinite linear, zoom 2s infinite alternate;
+}
