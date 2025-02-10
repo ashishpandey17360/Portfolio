@@ -34,7 +34,7 @@ function Contact() {
   </div>
   <div className="col space my-3 ">
     <h3 className="fw-bold ">Mail</h3>
-    <a className="fs-5 text-decoration-none dark cursor-pointer hov" href="mailto:ashishpandeyji17360@gmail.com">ashishpandeyji17360@gmail.com</a>
+    <a className="fs-5 text-decoration-none  cursor-pointer hov" href="mailto:ashishpandeyji17360@gmail.com">ashishpandeyji17360@gmail.com</a>
   </div>
 
 

@@ -48,7 +48,7 @@ function Header() {
 
       
     </div>
-    <div className="col-6 col-md-3 respro">
+    <div className="col-6 col-md-3 respro ">
      <img className="pro-img profile-image" src={ashish}/>
     </div>
     
