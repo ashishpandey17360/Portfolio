@@ -4,6 +4,15 @@
     margin-left: 13rem;
 }
 
+.topm{
+    margin-top: 3rem !important;
+}
+
+
+.colorHeading{
+    color: #399918 ;
+}
+
 .shiftLo{
     margin-right: 13rem;
     margin-top: 3rem;

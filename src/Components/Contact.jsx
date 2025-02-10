@@ -7,7 +7,7 @@ function Contact() {
     
     <div id="Contact" className="contact">
     
-      <h5   className="text-primary  textAlign h5contactAligment">CONTACT</h5>
+      <h5   className="  textAlign h5contactAligment colorHeading topm">CONTACT</h5>
       <h2  className=" fw-bold h5contactAligment">Don't be shy! Hit me up! 👇</h2>
 
       

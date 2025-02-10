@@ -1,6 +1,6 @@
 
 import "./Header.css"
-import ashish from "../Assets/ashish.png"
+import ashish from "../Assets/ashish.webp"
 import linkdin from "../Assets/linkdin.png"
 import github from "../Assets/github.png"
 import html from "../Assets/html.png"
@@ -13,6 +13,8 @@ import mongodb from "../Assets/mongodb.png"
 import bootstrap from "../Assets/bootstrap.png"
 import mysql from "../Assets/mysql.png"
 import express from "../Assets/express.png"
+import Postman from "../Assets/Postman.png"
+import Ai from "../Assets/Ai.png"
 
 function Header() {
   return (
@@ -21,13 +23,13 @@ function Header() {
     <div className="col-12 col-md-9 cen  mediacen">
     <h1 className="h1">
     <span className="front-end">Front-End React</span><br /> 
-    <span className="span1 ms middle">
+    <span className="span1 ms ms-5 middle">
       Developer👋
       </span> 
       </h1>
 
-      <p className="mar">
-      Hi,  I'm  Ashish Pandey. A passionate Front-end React <br /> <span className="span2">
+      <p className="mar corinthia-text fs-3">
+      Hi,  I'm  Ashish Pandey. A passionate Full Stack React <br /> <span className="span2">
        Developer based in India. <span className="siftIcon">📍</span>
       </span> 
       </p>
@@ -73,7 +75,10 @@ function Header() {
   {/* <img className="skillsimg translate-effect" src={mysql}/> */}
   
 </div>
+
 </div>
+ <img className="skillsimg translate-effect" src={Postman}/>
+  <img className="skillsimg translate-effect" src={Ai}/>
 
 </div>
   )

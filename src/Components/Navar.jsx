@@ -7,10 +7,14 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navar() {
   return (
-    <div className="mediaNav">
-       <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary ">
+    
+
+    
+<div className="mediaNav">
+<nav className="navbar fixed-top navbar-expand-lg ">
+
   <div className="container-fluid">
-    <a className="navbar-brand nShift fw-bold " href="#"> Ashish.dev</a>
+    <a className="navbar-brand nShift fw-bold color " href="#"> Ashish.dev</a>
     
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -19,16 +23,16 @@ function Navar() {
       <ul className="navbar-nav fw-bold  ms-auto">
       
         <li className="nav-item ">
-          <AnchorLink className="nav-link active anchor-link" aria-current="page" href="#Header">Home</AnchorLink>
+          <AnchorLink className="nav-link active color anchor-link" aria-current="page" href="#Header">Home</AnchorLink>
         </li>
         <li className="nav-item">
-          <AnchorLink className="nav-link active anchor-link" aria-current="page" offset={50} href="#About">About me</AnchorLink>
+          <AnchorLink className="nav-link active color anchor-link" aria-current="page" offset={50} href="#About">About me</AnchorLink>
         </li>
         <li className="nav-item">
-          <AnchorLink className="nav-link active anchor-link" aria-current="page" offset={50} href="#Project">Projects</AnchorLink>
+          <AnchorLink className="nav-link active anchor-link color" aria-current="page" offset={50} href="#Project">Projects</AnchorLink>
         </li>
         <li className="nav-item">
-          <AnchorLink className="nav-link active anchor-link" aria-current="page" offset={50} href="#Contact">Contact</AnchorLink>
+          <AnchorLink className="nav-link active anchor-link color" aria-current="page" offset={50} href="#Contact">Contact</AnchorLink>
         </li>
        
         

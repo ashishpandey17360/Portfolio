@@ -1,6 +1,13 @@
 *{
   margin: 0px;
   padding: 0px;
+  background-color: black !important;
+  color: #0b7eb8;
+}
+
+
+.colorHeading{
+  color: #399918;
 }
 
 body{

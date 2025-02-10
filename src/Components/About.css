@@ -26,11 +26,19 @@
 .aboutH4{
     margin-left: '8rem';
      text-align:"left" ;
+     font-weight:"bold";
+    
 }
+
+.colorHeading{
+    color: #399918;
+}
+
 
 .aboutH2{
     margin-left: '8rem' ;
      text-align:"left" ;
+     font-size: large;
 }
 
 /*------------------------ about part media query------------------------ */
@@ -63,6 +71,11 @@
 
     .aboutH4{
        text-align: center;
+       
+    }
+
+    .color{
+        color: #399918 !important;
     }
     
     

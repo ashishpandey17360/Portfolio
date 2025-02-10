@@ -1,6 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .nShift{
     margin-left: 0.1rem;
 }
+
+
+.divWholeCsss{
+    background-color: black;
+    color: #0b7eb8 !important;
+}
+
+.color{
+    color: #0b7eb8 !important
+}
+
 
 
 @media only screen and (max-width: 600px){

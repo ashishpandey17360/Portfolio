@@ -8,7 +8,7 @@ import projecttodo from "../Assets/projecttodo.png"
 function Project() {
   return (
     <div id="Project" className="projectSection text-start  cen">
-      <h5 className="text-primary cen">Portfolio</h5>
+      <h5 className=" colorHeading cen">Portfolio</h5>
       <p className="fw-bold ali ">Each project is a unique peice of development ➕</p>
 
       <div className="projectshow ">
@@ -19,7 +19,7 @@ function Project() {
 
       <div className="fix">
       <div className="order1">
-          <h4 className="fw-bold tU">TextUtiles</h4>
+          <h4 className="fw-bold tU colorHeading">TextUtiles</h4>
       </div>
        
 <div className="order3">
@@ -32,7 +32,7 @@ function Project() {
       
   </div>
   <button type="button" className="btn btn-outline-info mt-3 size   ">
-      <a className="removeunderline text-dark" href="https://harrypandey.github.io/text-utiles/" target="_blank"> Live Demo 🔗 </a>
+      <a className="removeunderline text-success" href="https://harrypandey.github.io/text-utiles/" target="_blank"> Live Demo 🔗 </a>
     </button>
 </div>
 
@@ -52,7 +52,7 @@ function Project() {
 
 
 <div className="order22">
-  <h4 className="fw-bold mt-5  tU1 ">ToDoApp</h4>
+  <h4 className="fw-bold mt-5  tU1 colorHeading ">ToDoApp</h4>
   <p className="propara1  mt-3">Todo React is a user-friendly React application for managing tasks, featuring a sleek interface for adding and deleting tasks. Its component-based architecture ensures smooth functionality and scalability.
 
 
@@ -72,7 +72,7 @@ function Project() {
 <button type="button"  href="https://ashishpandey17360.github.io/Weather/" target="_blank" style={{marginLeft:"6rem"}} className="btn btn-outline-info mt-3 textdeco text-dark">Live demo 🔗</button> */}
 
 <button type="button" className="btn btn-outline-info mt-3 size1  " >
-    <a className="removeunderline text-dark" href="https://ashishpandey17360.github.io/toDoAppNew/" target="_blank"> Live Demo 🔗 </a>
+    <a className="removeunderline text-success" href="https://ashishpandey17360.github.io/toDoAppNew/" target="_blank"> Live Demo 🔗 </a>
   </button>
 
 
@@ -97,7 +97,7 @@ function Project() {
       </div>
 
       <div >
-        <h4 className="fw-bold notesh4" >Notes</h4>
+        <h4 className="fw-bold notesh4 colorHeading" >Notes</h4>
         <p className="propara proparamedianotes mt-3">This minimalist application focuses on providing essential note-taking features in a user-friendly interface, making it accessible for users of all technical backgrounds. </p>
 
 <div className="d-flex tech techmedianotes">
@@ -109,7 +109,7 @@ function Project() {
 
 
 <button type="button" className="btn btn-outline-info mt-3  size">
-    <a className="removeunderline text-dark" href="https://ashishpandey17360.github.io/Notes-App/" target="_blank"> Live Demo 🔗 </a>
+    <a className="removeunderline text-success" href="https://ashishpandey17360.github.io/Notes-App/" target="_blank"> Live Demo 🔗 </a>
   </button>
 
       </div>
@@ -127,7 +127,7 @@ function Project() {
 
 
 <div className="order45">
-  <h4 className="fw-bold mt-5 mediah4clock">Wall Clock</h4>
+  <h4 className="fw-bold mt-5 mediah4clock colorHeading">Wall Clock</h4>
   <p className="propara1 mt-3">The "Wall Clock" project uses HTML, CSS, and JavaScript to display the current time. The design and functionality mimic a traditional wall clock. The clock updates in real-time to show the accurate current time.
 
 
@@ -149,7 +149,7 @@ function Project() {
 <button type="button"  href="https://ashishpandey17360.github.io/Weather/" target="_blank" style={{marginLeft:"6rem"}} className="btn btn-outline-info mt-3 textdeco text-dark">Live demo 🔗</button> */}
 
 <button type="button" className="btn btn-outline-info mt-3  " style={{marginLeft:"6rem"}}>
-    <a className="removeunderline text-dark" href="https://ashishpandey17360.github.io/wall-clock/
+    <a className="removeunderline text-success" href="https://ashishpandey17360.github.io/wall-clock/
 " target="_blank"> Live Demo 🔗 </a>
   </button>
 
