@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 .nShift{
     margin-left: 0.1rem;
 }
@@ -40,4 +45,10 @@
         color: #399918;  /* Custom green color */
         font-size: 1.5rem;
     }
+
+
+    html {
+        scroll-behavior: smooth;
+      }
+      
 }
