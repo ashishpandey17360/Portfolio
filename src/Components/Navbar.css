@@ -18,10 +18,26 @@
 }
 
 
+.navbar-toggler {
+    border-color: transparent;
+}
 
-@media only screen and (max-width: 600px){
 
-    .mediaNav{
-        
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-toggler {
+        border-color: #399918 !important; /* Change border color */
+    }
+
+    .navbar-toggler-icon {
+        background-image: none !important; /* Remove default Bootstrap icon */
+    }
+
+    .navbar-toggler-icon::before {
+        content: "\2630"; /* Unicode for hamburger icon */
+        color: #399918;  /* Custom green color */
+        font-size: 1.5rem;
     }
 }

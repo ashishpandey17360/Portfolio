@@ -30,7 +30,7 @@ function Header() {
 
       <p className="mar corinthia-text fs-3">
       Hi,  I'm  Ashish Pandey. A passionate Full Stack React <br /> <span className="span2">
-       Developer based in India. <span className="siftIcon">📍</span>
+       Developer based in India. <span className="siftIcon" id="shift">📍</span>
       </span> 
       </p>
 

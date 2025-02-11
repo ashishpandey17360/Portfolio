@@ -99,11 +99,11 @@
     }
 
     .front-end{
-        padding-left: 1rem;
+        
     }
 
     .middle{
-        padding-left: 4rem;
+        padding-right: 1rem;
         font-size: 1px;
         
     }
@@ -112,6 +112,7 @@
     .front-end {
         white-space: nowrap; /* Prevent "Front-End React" from breaking */
         text-align: center;
+        padding-right: 2rem;
       }
 
       .h1 {
@@ -143,9 +144,27 @@
         text-align: center;
     }
 
+
+  
+
+    #shift {
+        position: relative !important;
+        left: -40px !important; /* Moves the icon 40px to the left */
+        display: inline-block;
+    }
+    
     .shiftIcon{
-        text-align: center;
+        display: none !important;
+        visibility: hidden !important;
+       
+        
         background-color: black;
+       
+        
+    }
+
+    #shift {
+     visibility: hidden !important; /* Hides the icon on small screens */
     }
 
 /* ---------------github and linkdin icon--------------------- */
